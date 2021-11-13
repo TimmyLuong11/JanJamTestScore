@@ -3,9 +3,11 @@
     background-color:lightskyblue;
 }
 
-h1
+p
 {
     text-align:center;
+    font-size: 25px;
+    font-weight:bold;
 }
 
 h4
@@ -82,4 +84,17 @@ h4
     border-block-color: black;
     border-left-color:black;
     border-right-color:black;
+}
+
+#lisa
+{
+    height: 20px;
+}
+
+#iu {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: auto;
 }

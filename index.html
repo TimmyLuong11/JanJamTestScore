@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="RandomNumGen_Style.css"/>
 </head>
 <body>
-    <h1>😮JamJam Test Score Guesser! 😊</h1>
+    <p><img id="lisa" src="https://i.imgur.com/gcPqyRO.jpg" /> JamJam Test Score Guesser! 😊</p>
 
     <div class="Min">
         <h4>Minimun Number</h4>
@@ -21,7 +21,7 @@
 
     <div class="Button">
         <!-- <input type="submit" id="button" value="Generate!" /> -->
-        <input type="button" id="button" value="Generate!" onclick="ranNum()"/>
+        <input type="button" id="button" value="Generate!" onclick="ranNum()" />
     </div>
 
     <div class="Result">
@@ -29,9 +29,10 @@
         <input type="text" id="number" disabled="disabled" />
     </div>
 
+    <img id="iu" src="https://i.imgur.com/VrWwzwg.gif" />
+
     <script>
-        function ranNum()
-        {
+        function ranNum() {
             var min1 = document.getElementById("min").value;
             var max1 = document.getElementById("max").value;
             var min = Math.ceil(min1);
