@@ -33,6 +33,7 @@ h4
     border-block-color: black;
     border-left-color: black;
     border-right-color: black;
+    text-align:center;
 }
 
 .Max 
@@ -52,6 +53,7 @@ h4
     border-block-color: black;
     border-left-color: black;
     border-right-color: black;
+    text-align: center;
 }
 
 .Button
@@ -84,6 +86,7 @@ h4
     border-block-color: black;
     border-left-color:black;
     border-right-color:black;
+    text-align: center;
 }
 
 #lisa
